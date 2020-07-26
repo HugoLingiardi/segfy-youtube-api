@@ -1,0 +1,77 @@
+<div class="container">
+    <ngx-spinner></ngx-spinner>
+
+    <mat-tab-group>
+        <mat-tab label="Saved channels">
+            <div *ngIf="!vm.isLoadingSavedVideos">
+                <div *ngIf="(!vm.savedChannels || vm.savedChannels.length === 0) && !vm.errorLoadingSavedChannels">
+                    <h1>There are no saved channels...</h1>
+                </div>
+
+                <div *ngIf="vm.errorLoadingSavedChannels">
+                    <h1>There was an error loading the saved channels...</h1>
+
+                    <button mat-raised-button color="primary" (click)="loadData()">Try again</button>
+                </div>
+
+                <div *ngIf="vm.savedChannels && vm.savedChannels.length > 0">
+                    <div *ngFor="let channel of vm.savedChannels">
+                        <app-channel-item [channel]="channel"></app-channel-item>
+                    </div>
+                </div>
+
+                <button mat-raised-button color="primary" style="margin: 10px;" *ngIf="vm.actualPageChannels > 1"
+                        (click)="previousPageLoadData()">Previous
+                        Page</button>
+                    <button mat-raised-button color="primary" style="margin: 10px;" *ngIf="vm.isThereNextPageChannels"
+                        (click)="nextPageLoadData()">Next
+                        Page</button>
+            </div>
+        </mat-tab>
+
+        <mat-tab label="Search channels">
+            <div>
+                <div>
+                    <div>
+                        <mat-form-field floatLabel="never">
+                            <input #search matInput type="search" [value]="this.vm.filterYoutubeChannels"
+                                (input)="vm.filterYoutubeChannels = $event.target.value" />
+
+                            <mat-placeholder>
+                                Search
+                            </mat-placeholder>
+                        </mat-form-field>
+
+                        <button mat-raised-button class="search-button" (click)="filterYoutubeChannels()"><i
+                                class="fas fa-search"></i></button>
+                    </div>
+                </div>
+
+                <div *ngIf="!vm.isLoadingYoutubeVideos">
+                    <div
+                        *ngIf="(!vm.filteredYoutubeVideos || vm.filteredYoutubeVideos.length == 0) && !vm.errorLoadingYoutubeVideos">
+                        <h1>There are no youtube channels searched...</h1>
+                    </div>
+
+                    <div *ngIf="vm.errorLoadingYoutubeVideos">
+                        <h1>There was an error loading the Youtube channels...</h1>
+                    </div>
+
+                    <div *ngIf="vm.filteredYoutubeVideos && vm.filteredYoutubeChannels.length > 0">
+                        <div *ngFor="let channel of vm.filteredYoutubeChannels">
+                            <app-youtube-channel-item [channel]="channel"></app-youtube-channel-item>
+                        </div>
+                    </div>
+
+                    <button mat-raised-button color="primary" style="margin: 10px;" *ngIf="vm.previousPageTokenYoutubeChannels"
+                        (click)="filterPreviousYoutubeChannels()">Previous
+                        Page</button>
+                    <button mat-raised-button color="primary" style="margin: 10px;" *ngIf="vm.nextPageTokenYoutubeChannels"
+                        (click)="filterNextYoutubeChannels()">Next
+                        Page</button>
+                </div>
+            </div>
+        </mat-tab>
+    </mat-tab-group>
+
+</div>

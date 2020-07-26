@@ -1,0 +1,15 @@
+<mat-card class="card">
+    <mat-card-header>
+        <div mat-card-avatar>
+            <img mat-card-image src="{{channel.thumbnailUrl}}" />
+        </div>
+        <mat-card-title>{{channel.title}}</mat-card-title>
+    </mat-card-header>
+    <mat-card-content style="margin-top: 25px;">
+        <p>{{channel.description}}</p>
+    </mat-card-content>
+    <mat-card-actions>
+        <button mat-raised-button color="primary" (click)="this.openChannelUrl()">LINK</button>
+        <button mat-raised-button color="warn" (click)="this.deleteSavedVideo()">DELETE</button>
+    </mat-card-actions>
+</mat-card>

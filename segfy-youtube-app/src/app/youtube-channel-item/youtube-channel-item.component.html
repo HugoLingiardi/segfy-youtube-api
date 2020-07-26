@@ -1,0 +1,14 @@
+<mat-card class="card">
+    <mat-card-header>
+        <div mat-card-avatar style="margin: 10px;">
+            <img mat-card-image src="{{channel.snippet.thumbnails.medium.url}}" />
+        </div>
+        <mat-card-title>{{channel.snippet.title}}</mat-card-title>
+    </mat-card-header>
+    <mat-card-content style="margin-top: 25px;">
+        <p>{{channel.snippet.description}}</p>
+    </mat-card-content>
+    <mat-card-actions>
+        <button mat-raised-button color="primary" (click)="saveChannel()">SAVE CHANNEL</button>
+    </mat-card-actions>
+</mat-card>

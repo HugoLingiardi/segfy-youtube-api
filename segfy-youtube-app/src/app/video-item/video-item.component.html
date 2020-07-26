@@ -1,0 +1,16 @@
+<mat-card class="card">
+    <mat-card-header>
+        <div mat-card-avatar style="margin: 10px;">
+            <img mat-card-image src="{{video.thumbnailUrl}}" />
+        </div>
+        <mat-card-title>{{video.title}}</mat-card-title>
+        <mat-card-subtitle>{{video.channelTitle}}</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+        <p>{{video.description}}</p>
+    </mat-card-content>
+    <mat-card-actions>
+        <button mat-raised-button color="primary" (click)="this.openVideoUrl()">LINK</button>
+        <button mat-raised-button color="warn" (click)="this.deleteSavedVideo()">DELETE</button>
+    </mat-card-actions>
+</mat-card>

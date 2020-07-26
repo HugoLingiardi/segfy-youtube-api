@@ -1,0 +1,15 @@
+<mat-card class="card">
+    <mat-card-header>
+        <div mat-card-avatar style="margin: 10px;">
+            <img mat-card-image src="{{video.snippet.thumbnails.medium.url}}" />
+        </div>
+        <mat-card-title>{{video.snippet.title}}</mat-card-title>
+        <mat-card-subtitle>{{video.snippet.channelTitle}}</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+        <p>{{video.snippet.description}}</p>
+    </mat-card-content>
+    <mat-card-actions>
+        <button mat-raised-button color="primary" (click)="saveVideo()">SAVE VIDEO</button>
+    </mat-card-actions>
+</mat-card>
