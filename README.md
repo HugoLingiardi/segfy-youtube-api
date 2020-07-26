@@ -29,6 +29,13 @@ Projeto criado com as seguintes tecnologias:
 - Angular 9.1.12 - Front-end do App
 - MongoDb Compass - Armazenamento dos dados
 
+
+## Testes automatizados
+
+Criei um projeto na solução da API para realizar testes nos repositório e providers, o nome do projeto é Segfy.Youtube.Tests.
+
+## Estruturas
+
 Estrutura dos dados
 		
 	videos
