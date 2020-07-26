@@ -70,3 +70,4 @@ D:\Projetos\segfy-youtube-api\Segfy.Youtube\Segfy.Youtube.WebApi\obj\Debug\netco
 D:\Projetos\segfy-youtube-api\Segfy.Youtube\Segfy.Youtube.WebApi\obj\Debug\netcoreapp3.1\Segfy.Youtube.WebApi.dll
 D:\Projetos\segfy-youtube-api\Segfy.Youtube\Segfy.Youtube.WebApi\obj\Debug\netcoreapp3.1\Segfy.Youtube.WebApi.pdb
 D:\Projetos\segfy-youtube-api\Segfy.Youtube\Segfy.Youtube.WebApi\obj\Debug\netcoreapp3.1\Segfy.Youtube.WebApi.genruntimeconfig.cache
+D:\Projetos\segfy-youtube-api\Segfy.Youtube\Segfy.Youtube.WebApi\bin\Debug\netcoreapp3.1\aws-beanstalk-tools-defaults.json
