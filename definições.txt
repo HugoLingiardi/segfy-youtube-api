@@ -1,0 +1,60 @@
+- Mongo DB
+- API AspNET Core
+- Angular Web
+
+Estrutura dos dados
+		
+	videos
+		videoId
+		videoTitle
+		videoDescription
+		channelTitle
+		thumbnailUrl
+		createdAt
+		
+	channels
+		channelId
+		channelTitle
+		channelDescription
+		thumbnailUrl
+		createdAt
+
+Provider para consultar na API do Youtube
+
+	GetVideos 
+	GetChannels
+
+Para inserção de dados
+
+	- Interface para repositório base
+	
+		- Retorna videos (filtro)
+		- Retorna canais (filtro)
+		
+		- Retorna qtde videos
+		- Retorna qtde canais		
+		
+		- Grava video (video)
+		- Grava canal (canal)
+		
+		- Deleta video (videoId)
+		- Deleta canal (canalId)
+				
+
+Para retorno dos dados
+
+	- API
+	
+		- Retorna vídeos do youtube com base no texto informado
+		- GET api/youtube/videos/{texto}
+		- GET api/youtube/channels/{texto}
+				
+		- Retorna vídeos do youtube salvos na base de dados
+		- GET api/your/youtube/videos/{queryParams}
+		- GET api/your/youtube/channels/{queryParams}
+		
+		- Grava e deleta os vídeos e canais salvos na base de dados
+		- POST api/youryoutube/videos/ {body video)
+		- POST api/youryoutube/channels/ {body channel}		
+		- DELETE api/youryoutube/videos/{videoId)
+		- DELETE api/youryoutube/channels/{channelId}
