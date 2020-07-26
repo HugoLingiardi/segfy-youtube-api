@@ -15,6 +15,12 @@ Alguns requisitos:
 
 Quando terminar, faça um Pull Request neste repo e avise-nos por email.
 
+## Links para acessar
+
+App - http://segfy-youtube-app.s3-website-us-east-1.amazonaws.com
+WebApi - http://segfyyoutubeapi-env.eba-u4hcnqhu.us-east-1.elasticbeanstalk.com/api/
+MongoDb - mongodb+srv://segfy:26KEFxj8afCWTuw@cluster0-l5iep.gcp.mongodb.net/Segfy-Youtube?authSource=admin&replicaSet=Cluster0-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true
+
 ## Tecnologias
 
 Projeto criado com as seguintes tecnologias:
