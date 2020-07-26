@@ -36,6 +36,7 @@ D:\Projetos\youtube-api\Segfy.Youtube\Segfy.Youtube.WebApi\obj\Debug\netcoreapp3
 D:\Projetos\youtube-api\Segfy.Youtube\Segfy.Youtube.WebApi\obj\Debug\netcoreapp3.1\Segfy.Youtube.WebApi.MvcApplicationPartsAssemblyInfo.cache
 D:\Projetos\segfy-youtube-api\Segfy.Youtube\Segfy.Youtube.WebApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
 D:\Projetos\segfy-youtube-api\Segfy.Youtube\Segfy.Youtube.WebApi\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Projetos\segfy-youtube-api\Segfy.Youtube\Segfy.Youtube.WebApi\bin\Debug\netcoreapp3.1\aws-beanstalk-tools-defaults.json
 D:\Projetos\segfy-youtube-api\Segfy.Youtube\Segfy.Youtube.WebApi\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 D:\Projetos\segfy-youtube-api\Segfy.Youtube\Segfy.Youtube.WebApi\bin\Debug\netcoreapp3.1\Segfy.Youtube.WebApi.exe
 D:\Projetos\segfy-youtube-api\Segfy.Youtube\Segfy.Youtube.WebApi\bin\Debug\netcoreapp3.1\Segfy.Youtube.WebApi.deps.json
@@ -70,4 +71,3 @@ D:\Projetos\segfy-youtube-api\Segfy.Youtube\Segfy.Youtube.WebApi\obj\Debug\netco
 D:\Projetos\segfy-youtube-api\Segfy.Youtube\Segfy.Youtube.WebApi\obj\Debug\netcoreapp3.1\Segfy.Youtube.WebApi.dll
 D:\Projetos\segfy-youtube-api\Segfy.Youtube\Segfy.Youtube.WebApi\obj\Debug\netcoreapp3.1\Segfy.Youtube.WebApi.pdb
 D:\Projetos\segfy-youtube-api\Segfy.Youtube\Segfy.Youtube.WebApi\obj\Debug\netcoreapp3.1\Segfy.Youtube.WebApi.genruntimeconfig.cache
-D:\Projetos\segfy-youtube-api\Segfy.Youtube\Segfy.Youtube.WebApi\bin\Debug\netcoreapp3.1\aws-beanstalk-tools-defaults.json

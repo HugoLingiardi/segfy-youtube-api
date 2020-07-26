@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Segfy.Youtube.WebApi", "Seg
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Segfy.Youtube.Core", "Segfy.Youtube.Core\Segfy.Youtube.Core.csproj", "{FC61AA42-C575-453A-A297-54DE71034BF2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Segfy.Youtube.Tests", "Segfy.Youtube.Tests\Segfy.Youtube.Tests.csproj", "{F6AF6E62-42AE-485E-96D1-595A3370BA8E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{FC61AA42-C575-453A-A297-54DE71034BF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC61AA42-C575-453A-A297-54DE71034BF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC61AA42-C575-453A-A297-54DE71034BF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6AF6E62-42AE-485E-96D1-595A3370BA8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6AF6E62-42AE-485E-96D1-595A3370BA8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6AF6E62-42AE-485E-96D1-595A3370BA8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6AF6E62-42AE-485E-96D1-595A3370BA8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -36,7 +36,7 @@ namespace Segfy.Youtube.Core.Repository.MongoDb
             var skip = filter.MaxResults * (filter.Page - 1);
             var limit = filter.MaxResults;
 
-            var query = channels.Find(f).Skip(skip).Limit(limit);
+            var query = channels.Find(f).Skip(skip).Limit(limit).SortByDescending(f => f.CreatedAt);
             var list = await query.ToListAsync();
 
             return list;
@@ -49,7 +49,7 @@ namespace Segfy.Youtube.Core.Repository.MongoDb
             var skip = filter.MaxResults * (filter.Page - 1);
             var limit = filter.MaxResults;
 
-            var query = videos.Find(f).Skip(skip).Limit(limit);
+            var query = videos.Find(f).Skip(skip).Limit(limit).SortByDescending(f => f.CreatedAt);
             var list = await query.ToListAsync();
 
             return list;

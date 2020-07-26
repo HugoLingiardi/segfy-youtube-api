@@ -70,7 +70,7 @@ namespace Segfy.Youtube.WebApi.Properties {
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a AIzaSyCNGZL4PObizaNTe1UseH45huCdlEJcGOw.
+        ///   Consulta uma cadeia de caracteres localizada semelhante a AIzaSyCu4GulReYYpwYxm6_lTuSZ70KekD3ldPU.
         /// </summary>
         internal static string YoutubeApiKey {
             get {
