@@ -15,7 +15,7 @@ Alguns requisitos:
 
 Quando terminar, faça um Pull Request neste repo e avise-nos por email.
 
-## Links para acessar
+## Links para acessar (quebrados já né)
 
 - App - http://segfy-youtube-app.s3-website-us-east-1.amazonaws.com
 - WebApi - http://segfyyoutubeapi-env.eba-u4hcnqhu.us-east-1.elasticbeanstalk.com/api/
